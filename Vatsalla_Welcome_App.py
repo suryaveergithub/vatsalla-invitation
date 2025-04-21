@@ -53,11 +53,9 @@ elif page == "🖼️ Memory Gallery":
     st.title("🖼️ Humari Yadein")
     st.markdown("Chalo ek baar un moments ko yaad karte hain jo hamesha dil ke kareeb rahenge 💫")
 
-    st.image([
-        "https://via.placeholder.com/300x200.png?text=Childhood+Fun",
-        "https://via.placeholder.com/300x200.png?text=Dance+Practice",
-        "https://via.placeholder.com/300x200.png?text=Family+Get-Together"
-    ], caption=["Bachpan ki masti", "Dance Practice Fun", "Family Moments"], width=300)
+    st.image("vatsalla.png", caption="Wo lamhe jo hamesha yaad rahenge 💖", use_column_width=True)
+
+
 
 # Message Wall Page
 elif page == "💌 Message Wall":
