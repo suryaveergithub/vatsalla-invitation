@@ -53,7 +53,8 @@ elif page == "🖼️ Memory Gallery":
     st.title("🖼️ Humari Yadein")
     st.markdown("Chalo ek baar un moments ko yaad karte hain jo hamesha dil ke kareeb rahenge 💫")
 
-    st.image("vatsalla.png", caption="Wo lamhe jo hamesha yaad rahenge 💖", use_column_width=True)
+    st.image("vatsalla.png", caption="Wo lamhe jo hamesha yaad rahenge 💖", use_container_width=True)
+
 
 
 
